@@ -5,10 +5,10 @@ using UnityEngine;
 public class Sterowanie : MonoBehaviour
 {
     public CharacterController characterControler;
-    private float predkoscPoruszania = 9.0f;
-    private float wysokoscSkoku = 7.0f;
-    private float aktualnaWysokoscSkoku = 0f;
-    private float predkoscBiegania = 7.0f;
+    public float predkoscPoruszania = 9.0f;
+    public float wysokoscSkoku = 7.0f;
+    public float aktualnaWysokoscSkoku = 0f;
+    public float predkoscBiegania = 7.0f;
 
     //Czulość myszki
     private float czuloscMyszki = 3.0f;
